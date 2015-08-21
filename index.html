@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/hover.css/2.0.2/css/hover-min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="hero cov">
+  <div class="container-fluid">
+    <h1>The Forecaster</h1>
+    <p>Get your up to date Weather forecast here</p>
+    <span id="far" class="hov">&#8457</span>
+    <span class="hov">/ </span>
+    <span id="cel" class="hov">&#8451</span>
+  </div>
+</div>
+
+<div class="container page-wrap">
+  <div class="row">
+    <h1 id="location"></h1>
+    <h2>Right Now</h2>
+    <div class="icon col-md-1"></div>
+    <div class="col-md-2">
+      <h2 id="temp"></h2>
+    </div>
+    <div class="col-md-3">
+      <h2 id="data"></h2>
+    </div>
+    <a id="info" class="btn btn-primary col-md-2">More Information</a>
+    <a id="inf" class="btn btn-warning col-md-2">About</a>
+  </div>
+  <div class="panel col-md-4 col-md-offset-5 hidden" id="more">
+    <div class="panel-default panel-body">
+      <div class="row">
+        <span class="close">x</span>
+        <p id="humid" class="col-md-4">a</p>
+        <p id="pressure" class="col-md-4 col-md-offset-3">b</p>
+      </div>
+      <div class="row">
+        <p id="low" class="col-md-4">c</p>
+        <p id="high" class="col-md-4 col-md-offset-3">d</p>
+      </div>
+      <div class="row">
+        <p id="sunrise" class="col-md-4">c</p>
+        <p id="sunset" class="col-md-4 col-md-offset-3">d</p>
+      </div>
+      <div class="row">
+        <p class="text-center wind">b</p>
+      </div>
+    </div>
+    </div>
+  <div id="about" class="hidden">
+  <div class="panel col-md-4 col-md-offset-8">
+    <div class="panel-primary panel-body" >
+      <span class="close" id="clos">X</span>
+       <p>This site is a project built by <a href="#">Aaron Lo</a>, a student with <a href="http://www.freecodecamp.com/illusionelements">FreeCodeCamp</a>. The techonolgies used to build this was: HTML5, CSS3, Javascript, JQuery and bootstrap.
+            </br>
+            </br>
+            Weather API Provided by:
+            <a href="http://openweathermap.org/api">Open Weather API</a>
+          </p>
+</div>
+</div>
+</div>
+</div>
+
+
+  <footer class="site-footer">
+    <div class="container-fluid">
+      <span><p class="text-center">Created by Aaron Lo ©2015</p></span>
+    </div>
+</footer>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/openlayers/2.13.1/OpenLayers.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

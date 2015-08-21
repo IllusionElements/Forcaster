@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin+Condensed:400,700,500|Montserrat:400,700|Abel:400)
+$font-stack: 'Cabin Condensed', sans-serif
+$font-stack2: 'Montserrat', sans-serif
+
+::-moz-selection 
+  background-color: #2C3E50
+  color: #ECF0F1
+
+
+::selection 
+  background-color: #2C3E50
+  color: #ECF0F1
+
+body
+  font-family: $font-stack2
+  background: #FAFAFA
+.hero  
+  background: url('https://sqch7a.bn1.livefilestore.com/y2mQhke0z4fwS4BxUZt4w_OoDdcabx4BYzyuFREy9bR4xTf5NwThEAY90CZZ4cuo58gycqIcuPcjA9ERhA0WFt240pkNZz0eCOgWB4KjNs0AwXadZtbt0KkNhlASknEZdWZ/left.jpg?psid=1') no-repeat
+  h1
+    color: #5FAAAA
+    padding-top: 2em
+    font-family: $font-stack
+    font-size: 50px
+    font-weight: 700
+    margin-left: 70px
+  p
+    color: #5FAAAA
+    font-family: $font-stack
+    font-size: 20px
+    font-weight: 700
+    margin-left: 100px
+.cov 
+  margin-top: -20px
+  height: 250px
+  background-size: cover
+  background-position: center
+.offset 
+  margin-left: 50px
+  
+.panel 
+  margin-top: -20px
+#fore
+  padding-top: 5em
+#for 
+  padding-top: 1em
+#more
+  padding-bottom: 1em
+#inf
+  margin-left: 10px
+
+.tall
+  width: 75px
+.hov
+  float: right
+  font-size: 21px
+  font-weight: 700
+  line-height: 1
+  color: #FAFAFA
+  text-shadow: 0 1px 0 #fff
+  filter: alpha(opacity=20)
+  opacity: .2
+.hov:hover
+  color: #FAFAFA
+  text-decoration: none
+  cursor: pointer
+  filter: alpha(opacity=50)
+  opacity: .5
+  .hidden 
+  display:none
+.hide
+  display:none  
+* 
+  margin: 0
+
+html, body 
+  height: 100%
+
+.page-wrap 
+  min-height: 100%
+  /* equal to footer height */
+  margin-bottom: -42px
+
+.page-wrap:after 
+  content: ""
+  display: block
+
+.site-footer, .page-wrap:after 
+  height: 42px
+
+.site-footer 
+  background: #2980B9
+  color: #fff
+  p
+    margin-top: 10px
